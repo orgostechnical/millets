@@ -270,7 +270,9 @@ ul li{
 .onboardimg h1{
     color:#fff;
 }
-
+.navbar ul {
+    background: #00000000;
+}
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #34456a;
