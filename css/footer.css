@@ -9,3 +9,9 @@ footer.page-footer h5,
 footer.page-footer p{
     color: #fff;
 }
+.jkl-footer-social-icon span{
+    margin-bottom: 10px;
+}
+.jkl-footer-social-icon{
+    margin-bottom: 15px;
+}

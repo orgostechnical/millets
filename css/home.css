@@ -61,14 +61,20 @@ figure.image-box.center img {
         padding:0;
     }
     .section-header {
-        padding-bottom: 50px;
+        padding-bottom: 25px;
     }
     .container-fluid.page-content>section {
         margin: 0;
     }
-    .inside-products>* {
-        margin: 20px 0;
+    .inside-products>div {
+        margin: 50px 0;
     }
+    .about-us-section{
+      padding: 0 5% 25px 5%;
+    }
+    .why-us-content-line>span {
+      width: 50px;
+  }
 }
 
 
