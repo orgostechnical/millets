@@ -1,0 +1,55 @@
+.onboard {
+    background: url("../assets/images/root-photo.jpg") 100% 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table;
+    background-attachment: fixed;
+}
+.page-content img{
+    width:100%;
+    transition: .3s;
+    padding:10px;
+}
+.page-content{
+    padding:5%;
+}
+.page-content img:hover{
+    transform: scale(1.1);
+}
+.onboard>div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.img-alignment{
+    width: 100%;
+    
+}
+section{
+    padding: 20px 50px;;
+}
+
+.products-box img{
+    width:90%;
+    height: 250px;
+}
+.products-box ul{
+    float:left;
+    padding:0;
+}
+.products-box img:hover{
+    transform: scale(1.1);
+}
+.products-box ul li {
+    float: left;
+    padding: 10px;
+}
+
+@media(max-width: 767px){
+    .products-box img{
+        height: auto;
+    }
+}
