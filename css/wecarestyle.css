@@ -1,9 +1,13 @@
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-brand {
-    color: #452412 ;
+
+@media (min-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-brand {
+        color: #452412 ;
+    }
+    .navbar-dark.bg-dark .navbar-nav .nav-link, .navbar-dark.bg-dark .navbar-brand, .navbar-dark.bg-dark .navbar-brand:hover {
+        color: #fff;
+    }
 }
-.navbar-dark.bg-dark .navbar-nav .nav-link, .navbar-dark.bg-dark .navbar-brand, .navbar-dark.bg-dark .navbar-brand:hover {
-    color: #fff;
-}
+
 .fakeimg {
     height: 200px;
     background: #aaa;
