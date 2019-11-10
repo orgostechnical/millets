@@ -608,11 +608,11 @@ ul {
 /* 4. About */
 .section-title h2 {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     display: block;
     font-weight: 600;
     line-height: 1;
-    text-align: center;
+    text-align: left;
 }
 .post-comments .section-title h2 {
     margin-bottom: 15px;
@@ -625,13 +625,14 @@ ul {
     height: 2px;
     background: #ff5e14;
     bottom: -25px;*/
-    text-align: center;
+    text-align: left;
     content: "";
     position: absolute;
     left: 0;
     width: 80px;
     height: 2px;
-    background: #ff5e14;
+    /* background: #ff5e14; */
+    background:transparent;
     bottom: -15px;
     right: 0;
     margin: auto;
@@ -1060,7 +1061,7 @@ img {
 /* Student Life */
 
 .jkl-scroll-container {
-    background-image: url("../images/student-life-section2-bg.jpg");
+    background-image: url("../../images/milletgreentree.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
