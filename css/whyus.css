@@ -56,7 +56,16 @@ div#demo img{
     width: 10%;
     margin: 0 auto;
 }
-
+.jkl-extra-activity-parallex-infra {
+    background-image: url(../assets/images/millets-banner-3.jpg);
+}
+#section-1{
+    padding:0;
+    margin:-15px -15px 30px -15px;
+}
+.portfolio-thumb img {
+    min-height: 250px;
+}
 @media (min-width: 576px) {
     .navbar-expand-sm .navbar-collapse {
         float: right;
